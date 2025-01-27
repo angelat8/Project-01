@@ -13,6 +13,7 @@ angelat8
 - Include at least one loop
   - I use a loop to advance time–each time the player returns to the cave mouth or visits other select passages, such as the moving boulder knot, time will advance.
   - Additionally, simple loops are used in a few passages that are often re-visited to vary the content (Ex: east_tunnel and west_tunnel knot)
+  
 - Allow the player to pick up items and change the state of the game if certain items are in the inventory. Acknowledge if a player does or does not have a certain item
   - The Player is able to pick up a key, potions, and a torch. If they have the key in their inventory, the player is able to open a chest. If they pick up the torch, the player can unlock new paths and find other items. When picking up a potion, the player’s stats are upgraded.
   - If the player does not have a torch, they will be unable to go further down the east tunnel, and it will acknowledge that the player has not picked the torch up yet. Additionally, when the player does not have a key and tries to pry the chest open, the player will fail at the task and will be prompted to find the key first.
@@ -21,3 +22,4 @@ angelat8
 - Keep track of visited passages and only display the description when visiting for the first time (or requested)
   - After visiting areas with items and picking them up, the description will change based on the player’s actions and exclude details relating to the item. 
   - In re-visitable passages that are long or describe the appearance of areas, it will only be displayed when visiting the first time. After, when visiting again, there is only a short sentence about where the player is located or prompting the player to select a choice (ex: in the market-related knots, and the east_tunnel_lit and cave_mouth knots, etc).
+- Include more than 16 passages
