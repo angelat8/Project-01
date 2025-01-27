@@ -22,4 +22,4 @@ angelat8
 - Keep track of visited passages and only display the description when visiting for the first time (or requested)
   - After visiting areas with items and picking them up, the description will change based on the player’s actions and exclude details relating to the item. 
   - In re-visitable passages that are long or describe the appearance of areas, it will only be displayed when visiting the first time. After, when visiting again, there is only a short sentence about where the player is located or prompting the player to select a choice (ex: in the market-related knots, and the east_tunnel_lit and cave_mouth knots, etc).
-- Include more than 16 passages
+- Included more than 16 passages
